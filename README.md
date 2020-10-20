@@ -6,7 +6,7 @@
 |   |       UserController.php // 示例控制器
 |   +---exceptions
 |   +---middleware
-|   \---models
+|   +---models
 |           User.php // 示例模型
 +---config
 |       database.php // 数据库配置
