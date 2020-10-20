@@ -5,13 +5,7 @@
 |   +---controller
 |   |       UserController.php // 示例控制器
 |   +---exceptions
-|   |       ErrorMessageException.php // 错误消息返回
-|   |       HandleExceptions.php // 继承core/HandleExceptions
 |   +---middleware
-|   |       ApiMiddleWare.php
-|   |       ControllerMiddleWare.php
-|   |       IsAuthMiddleWare.php 
-|   |       WebMiddleWare.php // web.php加载的中间件
 |   \---models
 |           User.php // 示例模型
 +---config
@@ -21,8 +15,6 @@
 +---core
 |   |   Config.php  // 配置
 |   |   Controller.php      // 基础控制器
-|   |   HandleExceptions.php    // 异常&错误 托管处理
-|   |   PipleLine.php   // 管道
 |   |   Response.php    // 响应
 |   |   RouteCollection.php // 路由
 |   |   database.php // 数据库ORM
